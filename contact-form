@@ -1,0 +1,21 @@
+<div class="contact-form">
+
+<div>
+<h3 class=title>Vos informations</h3>
+<label> Nom</label>[text* text-name]
+<label> Prénom </label>[text* text-surname]
+<label> E-mail </label>[email* email]
+</div>
+
+<span class="vertical-line"></span>
+
+<div>
+<h3 class=title>Livraison</h3>
+<label class=adress> Adresse </label>[text* your-address]
+<label class=zip> Code Postale </label>[text* your-zipcode]
+<label class=city> Ville  </label>[text* your-city]
+</div>
+
+
+</div>
+[submit class:button-cmd "Commander"]
